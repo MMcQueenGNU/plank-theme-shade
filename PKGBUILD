@@ -8,8 +8,7 @@ url='https://github.com/kennyh7279/plank-themes'
 license=('GPL3')
 depends=('plank')
 makedepends=('git')
-source=("git://github.com/MMcQueenGNU/plank-theme-shade.git")
-_gitname='plank-theme-shade'
+source=("git://github.com/MMcQueenGNU/_pkgname.git")
 sha256sums=('SKIP')
 
 build() {
