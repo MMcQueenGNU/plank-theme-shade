@@ -1,9 +1,9 @@
 # Maintainer: McQueen <clear3239@yahoo.com>
-_pkgname=plank-theme-paperterial
+_pkgname=plank-theme-shade
 pkgname=$_pkgname-git
 pkgver=0.1
 pkgrel=1
-pkgdesc="Paperterial theme for Plank"
+pkgdesc="Shade theme for Plank"
 arch=('any')
 url='https://github.com/kennyh7279/plank-themes'
 license=('GPL3')
@@ -18,6 +18,6 @@ build() {
 
 package() {
 	cd $srcdir/$_pkgname
-	mkdir -p $pkgdir/usr/share/plank/themes/paperterial
-	install -m 755 dock.theme $pkgdir/usr/share/plank/themes/paperterial/
+	mkdir -p $pkgdir/usr/share/plank/themes/shade
+	install -m 755 dock.theme $pkgdir/usr/share/plank/themes/shade/
 }
