@@ -1,6 +1,6 @@
 # Maintainer: McQueen <clear3239@yahoo.com>
 
-pkgname=plank-theme-shade
+pkgname=plank-theme-shade-git
 pkgver=0.1
 pkgrel=1
 arch=('any')
