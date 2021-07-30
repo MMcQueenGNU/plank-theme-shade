@@ -7,6 +7,7 @@ arch=('any')
 url='https://github.com/MMcQueenGNU/plank-theme-shade'
 license=('GPL3')
 depends=('plank')
+makedepends=('git')
 source=("git://github.com/MMcQueenGNU/$pkgname.git")
 sha256sums=('SKIP')
 
